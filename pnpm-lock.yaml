@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.13.12
     version: 1.13.12
   powerhooks:
-    specifier: ^1.0.15
-    version: 1.0.15
+    specifier: ^2.0.1
+    version: 2.0.1
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -1308,12 +1308,12 @@ packages:
       es5-ext: 0.10.64
     dev: false
 
-  /evt@2.5.7:
-    resolution: {integrity: sha512-dr7Wd16ry5F8WNU1xXLKpFpO3HsoAGg8zC48e08vDdzMzGWCP9/QFGt1PQptEEDh8SwYP3EL8M+d/Gb0kgUp6g==}
+  /evt@2.5.9:
+    resolution: {integrity: sha512-GpjX476FSlttEGWHT8BdVMoI8wGXQGbEOtKcP4E+kggg+yJzXBZN2n4x7TS/zPBJ1DZqWI+rguZZApjjzQ0HpA==}
     dependencies:
       minimal-polyfills: 2.2.3
       run-exclusive: 2.2.19
-      tsafe: 1.7.5
+      tsafe: 1.8.12
     dev: false
 
   /ext@1.7.0:
@@ -1716,12 +1716,12 @@ packages:
       source-map-js: 1.2.1
     dev: true
 
-  /powerhooks@1.0.15:
-    resolution: {integrity: sha512-rTOGCA7egw/yjVaclOMrKTgTV6kAbmx8IY1t8CN8C2hnhInlAawAvLqaKxm0Qc997jnqI8SlQqdVFpLVhvvsXw==}
+  /powerhooks@2.0.1:
+    resolution: {integrity: sha512-G4oStGCXGHBexDEAlRfrYRESgticY6oOOtkz9AEwmUt6uItZwNqoDELWyZiEoHjOrwuLDMd6+S0IHj9lBLz9dA==}
     dependencies:
-      evt: 2.5.7
+      evt: 2.5.9
       memoizee: 0.4.17
-      tsafe: 1.7.5
+      tsafe: 1.8.12
     dev: false
 
   /prelude-ls@1.2.1:
@@ -2246,8 +2246,8 @@ packages:
       typescript: 5.5.4
     dev: true
 
-  /tsafe@1.7.5:
-    resolution: {integrity: sha512-tbNyyBSbwfbilFfiuXkSOj82a6++ovgANwcoqBAcO9/REPoZMEQoE8kWPeO0dy5A2D/2Lajr8Ohue5T0ifIvLQ==}
+  /tsafe@1.8.12:
+    resolution: {integrity: sha512-nFRqW0ttu/2o6XTXsHiVZWJBCOaxhVqZLg7dgs3coZNsCMPXPfwz+zPHAQA+70fNnVJLAPg1EgGIqK9Q84tvAw==}
     dev: false
 
   /tslib@2.7.0:
